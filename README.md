@@ -28,6 +28,8 @@ Program 2 Waveform
 
 ![alt text](http://i57.tinypic.com/25jky0n.png)
 
+Walking through teh test bench, you can see that the program works because the program stores -37 and 44 into registers 16 and 17 (both of which are dispplayed in hexidecimal) 
+
 
 Part 3
 ===
@@ -42,3 +44,5 @@ updated ALU Decoder Table and Main Decoder table
 
 part 3 waveform
 ![alt text](http://i61.tinypic.com/w2irzk.png)
+
+To check my waveform, I looked to see if the aluout value was 8007, which is what I was supposed to get for ori.  Looking at my waveform picture, 00008007 is in the correct place (aluout) at approximately 30 ns
