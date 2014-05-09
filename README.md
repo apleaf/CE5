@@ -46,3 +46,6 @@ part 3 waveform
 ![alt text](http://i61.tinypic.com/w2irzk.png)
 
 To check my waveform, I looked to see if the aluout value was 8007, which is what I was supposed to get for ori.  Looking at my waveform picture, 00008007 is in the correct place (aluout) at approximately 30 ns
+
+
+Documentation: C3C Austin Bolinger explained how I needed to increase the number of bits for alusrc and create a second mux to choose between zeroext and signext.  After that, it was simply a matter of modifying the mips.vhd code using things that were already in the code.
